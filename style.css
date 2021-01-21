@@ -70,12 +70,12 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-.footer{
+.footer {
   border-top: 10px solid black;
   margin-top: 30px;
 }
 
-p{
+p {
   text-align: center;
   padding-top: 15px;
 }
