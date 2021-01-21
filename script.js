@@ -32,9 +32,26 @@ $(document).ready(function () {
     console.log(rowHour)
     // console.log($(this))
 
-});
+    // sets textareas' colors depending on time of day 
+    if (currentTime === rowHour) {
+      $(this).addClass("present")
+    } else if (currentTime > rowHour) {
+      $(this).addClass("past")
+    } else {
+      $(this).addClass("future")
+    }
+  })
+
+  const DateTime = luxon.DateTime;
+  const dt = DateTime.fromISO(new Date().toISOString());
+  var day = (dt.toFormat('EEEE, MMMM yyyy'));
+  var time = (dt.toFormat('hh:mm a'));
+
+  $("#currentDay").text(day + "  @  " + time);
 
 });
+
+
 
 
 
