@@ -8,7 +8,7 @@ $(document).ready(function () {
     console.log(activity);
     var hour = $(this).parent().attr("id");
     localStorage.setItem(hour, activity);
-  })
+  });
 
   // Brings text back from local storage to correct box for each hour (upon refresh)
   $("#hour-9 .textBox").val(localStorage.getItem("hour-9"));
