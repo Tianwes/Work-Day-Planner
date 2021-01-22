@@ -34,7 +34,7 @@ $(document).ready(function () {
     } else {
       $(this).addClass("future")
     }
-  })
+  });
 
   // Luxon's Time Api - puts current day and time in jumbotron 
   const DateTime = luxon.DateTime;
@@ -42,7 +42,7 @@ $(document).ready(function () {
   var day = (dt.toFormat('EEEE, MMMM yyyy'));
   var time = (dt.toFormat('hh:mm a'));
 
-  $("#currentDay").text(day + "  @  " + time);
+  $("#currentDay").text(day + "  @  " + time).css('font-weight', '400');
 
 });
 

@@ -2,118 +2,124 @@
 <html lang="en">
 
 <head>
-  <meta chtype="text" arset="textBox col-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <!-- Bootstrap  -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-  <!-- Google Fonts  -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-  <!-- External CSS  -->
-  <link rel="stylesheet" href="style.css" />
-  <!-- Icons-used  -->
-  <link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
-  <title>Work Day Scheduler</title>
+    <meta chtype="text" arset="textBox col-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <!-- Google Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Montserrat:wght@400;500&display=swap"
+        rel="stylesheet">
+    <!-- Icons-used  -->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
+    <!-- External CSS  -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
 </head>
 
 <body>
-  <!-- Heading -->
-  <header class="jumbotron">
-    <h1 class="display-3">Work Day Scheduler</h1>
-    <p class="lead">A simple calendar app for scheduling your work day</p>
-    <p id="currentDay" class="lead"></p>
-  </header>
+    <img class="coffee-bg" src="https://image.freepik.com/free-vector/coffee-seamless-pattern-background-vector-with-white-icons-black-coffee-pot-percolator-steaming-mugs-cups-beans-hearts-espresso-filter-cappuccino-iced-coffee-square-format_1284-44088.jpg" alt="coffee-cups"/>
+    <!-- Heading -->
+    <header class="jumbotron">
+        <h1 class="display-3">Work Day Scheduler</h1>
+        <p class="lead">A simple calendar app for scheduling your work day</p>
+        <p id="currentDay" class="lead"></p>
+    </header>
 
-  <div class="container time-block">
+    <div class="container time-block">
 
-    <!-- Timeblocks go here -->
+        <!-- Timeblocks go here -->
 
-    <div class="row time-block" id="hour-9">
-      <div class="col-2 hour">
-        9AM
-      </div>
-      <textarea type="text" name="textarea" class="textBox box1 col-8"></textarea>
-      <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
+        <div class="row time-block" id="hour-9">
+            <div class="col-2 hour">
+                9AM
+            </div>
+            <textarea type="text" name="textarea" class="textBox box1 col-8"></textarea>
+            <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
+        </div>
+
+        <div class="row time-block" id="hour-10">
+            <div class="col-2 hour">
+                10AM
+            </div>
+            <textarea type="text" name="textarea" class="textBox box2 col-8"></textarea>
+            <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
+        </div>
+
+        <div class="row time-block" id="hour-11">
+            <div class="col-2 hour">
+                11AM
+            </div>
+            <textarea type="text" name="textarea" class="textBox col-8"></textarea>
+            <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
+        </div>
+
+        <div class="row time-block" id="hour-12">
+            <div class="col-2 hour">
+                12PM
+            </div>
+            <textarea type="text" name="textarea" class="textBox col-8"></textarea>
+            <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
+        </div>
+
+        <div class="row time-block" id="hour-13">
+            <div class="col-2 hour">
+                1PM
+            </div>
+            <textarea type="text" name="textarea" class="textBox col-8"></textarea>
+            <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
+        </div>
+
+        <div class="row time-block" id="hour-14">
+            <div class="col-2 hour">
+                2PM
+            </div>
+            <textarea type="text" name="textarea" class="textBox col-8"></textarea>
+            <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
+        </div>
+
+        <div class="row time-block" id="hour-15">
+            <div class="col-2 hour">
+                3PM
+            </div>
+            <textarea type="text" name="textarea" class="textBox col-8"></textarea>
+            <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
+        </div>
+
+        <div class="row time-block" id="hour-16">
+            <div class="col-2 hour">
+                4PM
+            </div>
+            <textarea type="text" name="textarea" class="textBox col-8"></textarea>
+            <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
+        </div>
+
+        <div class="row time-block" id="hour-17">
+            <div class="col-2 hour">
+                5PM
+            </div>
+            <textarea type="text" name="textarea" class="textBox col-8"></textarea>
+            <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
+        </div>
+
     </div>
 
-    <div class="row time-block" id="hour-10">
-      <div class="col-2 hour">
-        10AM
-      </div>
-      <textarea type="text" name="textarea" class="textBox box2 col-8"></textarea>
-      <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
-    </div>
+    <footer class="footer">
+        <p>powered by coffee</p>
+        <i class="lni lni-coffee-cup"></i>
+        <p><a href="https://www.freepik.com/vectors/pattern" target="_blank">Pattern vector created by macrovector (www.freepik.com) </a></p>
+    </footer>
 
-    <div class="row time-block" id="hour-11">
-      <div class="col-2 hour">
-        11AM
-      </div>
-      <textarea type="text" name="textarea" class="textBox col-8"></textarea>
-      <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
-    </div>
-
-    <div class="row time-block" id="hour-12">
-      <div class="col-2 hour">
-        12PM
-      </div>
-      <textarea type="text" name="textarea" class="textBox col-8"></textarea>
-      <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
-    </div>
-
-    <div class="row time-block" id="hour-13">
-      <div class="col-2 hour">
-        1PM
-      </div>
-      <textarea type="text" name="textarea" class="textBox col-8"></textarea>
-      <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
-    </div>
-
-    <div class="row time-block" id="hour-14">
-      <div class="col-2 hour">
-        2PM
-      </div>
-      <textarea type="text" name="textarea" class="textBox col-8"></textarea>
-      <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
-    </div>
-
-    <div class="row time-block" id="hour-15">
-      <div class="col-2 hour">
-        3PM
-      </div>
-      <textarea type="text" name="textarea" class="textBox col-8"></textarea>
-      <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
-    </div>
-
-    <div class="row time-block" id="hour-16">
-      <div class="col-2 hour">
-        4PM
-      </div>
-      <textarea type="text" name="textarea" class="textBox col-8"></textarea>
-      <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
-    </div>
-
-    <div class="row time-block" id="hour-17">
-      <div class="col-2 hour">
-        5PM
-      </div>
-      <textarea type="text" name="textarea" class="textBox col-8"></textarea>
-      <button class="saveBtn col-2"><i class="lni lni-save"></i></button>
-    </div>
-
-  </div>
-
-  <footer class="footer">
-    <p>powered by coffee</p>
-  </footer>
-
-  <!-- JQuery and Luxon(Date&Times) CDNs -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.25.0/luxon.min.js"
-    integrity="sha512-OyrI249ZRX2hY/1CAD+edQR90flhuXqYqjNYFJAiflsKsMxpUYg5kbDDAVA8Vp0HMlPG/aAl1tFASi1h4eRoQw=="
-    crossorigin="anonymous"></script>
-  <script src="script.js"></script>
+    <!-- JQuery and Luxon(Date&Times) CDNs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.25.0/luxon.min.js"
+        integrity="sha512-OyrI249ZRX2hY/1CAD+edQR90flhuXqYqjNYFJAiflsKsMxpUYg5kbDDAVA8Vp0HMlPG/aAl1tFASi1h4eRoQw=="
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 
 </body>
 

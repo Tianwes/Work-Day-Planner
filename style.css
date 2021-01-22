@@ -1,24 +1,43 @@
 body {
-  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  z-index: 4;
 }
 
 textarea{
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
+  font-family: 'Montserrat', sans-serif;
+  color: #382107;
+  font-weight: 500;
+  border-left: 1px solid saddlebrown;
   padding: 10px;
 }
 
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: saddlebrown;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid saddlebrown;
+
+}
+
+/* background image  */
+.coffee-bg {
+  opacity: 5%;
+  width: 100%;
+  height: 150%;
+  position: fixed;
+  z-index: -1;
+}
+
+/* h1 of Jumbotron  */
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+  color:saddlebrown; 
 }
 
 .description{
@@ -38,31 +57,35 @@ textarea{
 
 .hour {
   background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  color: saddlebrown;
+  border-top: 1px dashed saddlebrown;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: wheat;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #cd6b17;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #dea455;
   color: white;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 1px solid saddlebrown;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
+  background-color: #382107;
+  color: wheat;
+}
+
+.saveBtn:hover {
+  background-color: saddlebrown;
 }
 
 .saveBtn i:hover {
@@ -71,12 +94,27 @@ textarea{
 }
 
 .footer {
-  border-top: 10px solid black;
+  border-top: 10px solid saddlebrown;
   margin-top: 30px;
+  z-index: 3;
 }
 
-p {
+p, a {
   text-align: center;
   padding-top: 15px;
+  color: saddlebrown;
 }
 
+.lni-coffee-cup {
+  margin-left: 50%;
+  color: #382107;
+}
+
+a:hover {
+    color: darkslategray;
+}
+
+/* fonts used    */
+/* 
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif; */
