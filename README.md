@@ -40,9 +40,9 @@ https://github.com/Tianwes/JQuery-API-Work-Day-Planner
 
 ## Creator's contact info
 Tiffany Weaver
--email: tianweavers@gmail.com
--phone: (478)954-6970
--www.linkedin.com/in/tiffany-weaver-dev
+- email: tianweavers@gmail.com
+- phone: (478)954-6970
+- LinkedIn - https://www.linkedin.com/in/tiffany-weaver-dev/
 
 ------
 
