@@ -35,3 +35,10 @@ https://tianwes.github.io/JQuery-API-Work-Day-Planner/
 
 ## GitHub Repository URL
 https://github.com/Tianwes/JQuery-API-Work-Day-Planner
+
+---
+
+## Creator's contact info
+Tiffany Weaver
+-email: willnotsuffice@gmail.com
+-phone: (478)954-6970
