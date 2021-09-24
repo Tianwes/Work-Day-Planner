@@ -1,4 +1,4 @@
-# JQuery-API-Work-Day-Planner
+# Work-Day-Planner
 This calendar application uses Luxon dates and time to help users schedule their workday by the hour. 
 
 ## What to expect
