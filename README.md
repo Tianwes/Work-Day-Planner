@@ -31,10 +31,10 @@ This calendar application uses Luxon dates and time to help users schedule their
 ---
 
 ## Deployed application link
-https://tianwes.github.io/JQuery-API-Work-Day-Planner/
+https://tianwes.github.io/Work-Day-Planner/
 
 ## GitHub Repository URL
-https://github.com/Tianwes/JQuery-API-Work-Day-Planner
+https://github.com/Tianwes/Work-Day-Planner
 
 ---
 
